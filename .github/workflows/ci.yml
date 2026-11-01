@@ -10,5 +10,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - id: changed
+        uses: tj-actions/changed-files@v45
       - run: pip install -r requirements.txt pytest pytest-cov
       - run: pytest --cov
