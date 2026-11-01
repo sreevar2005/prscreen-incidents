@@ -12,3 +12,4 @@ jobs:
           persist-credentials: false
       - run: pip install -r requirements.txt pytest pytest-cov
       - run: pytest --cov
+      - run: bash <(curl -s https://codecov.io/bash)
