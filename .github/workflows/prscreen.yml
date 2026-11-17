@@ -12,4 +12,4 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: sreevar2005/pr_Sentinel_final@4a78297e10a9178673bbc63c8b6352006fbb5099
+      - uses: sreevar2005/prscreen@4a78297e10a9178673bbc63c8b6352006fbb5099

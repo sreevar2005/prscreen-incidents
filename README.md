@@ -1,7 +1,7 @@
 # prscreen-incidents
 
 A small web shop where every `incident/...` branch recreates one **real, documented** security
-incident, for trying [prscreen](https://github.com/sreevar2005/pr_Sentinel_final). Each branch is one
+incident, for trying [prscreen](https://github.com/sreevar2005/prscreen). Each branch is one
 commit on top of `main`; its commit message explains the incident and links the sources.
 
 **Nothing here is meant to be run.** Every payload is an inert stand-in, credentials are fake,
